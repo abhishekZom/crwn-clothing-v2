@@ -1,5 +1,4 @@
 import { useContext, useState } from "react";
-
 import './cartItem.styles.scss';
 
 const CartItem = ({cartItem}) => {
