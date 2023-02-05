@@ -11,7 +11,6 @@ const CartDropdown = ({}) => {
       <div className='cart-items'>
         {
           !!cartItems && cartItems.length > 0 && cartItems.map((item) => {
-            debugger;
             return <CartItem key={item.id} cartItem={item} />
           })
         }
